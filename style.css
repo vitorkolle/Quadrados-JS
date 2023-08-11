@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+}
+.texto{
+    color: aliceblue;
+    font-size: 64px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: 1s;
+}
+.vermelho{
+    background-color: red;
+}
+.circulo{
+    border-radius: 50%;
+}
+.palmeiras{
+    background-image: url(./img/images.jfif);
+    background-size: cover;
+}
+.carregamento{
+    background-color: transparent;
+    background-image: url(./img/carregamento.gif);
+    background-size: cover;
+}
+.aumento{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+.diminuicao{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+.triangulo{
+    width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #dfa21d;
+}
+forma8{
+    transition: 2s;
+}
+.giro{
+    transform: rotate(2.0turn);
+    background-color: rgb(254, 51, 136);
+}
